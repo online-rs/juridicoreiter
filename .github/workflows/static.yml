@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://online-rs.github.io/reiter/
+      url: https://online-rs.github.io/reiter/index.html
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
